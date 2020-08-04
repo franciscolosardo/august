@@ -1,5 +1,5 @@
 {
-  "main": "august.raml",
+  "main": "folder1/august.raml",
   "name": "august",
   "classifier": "raml",
   "tags": []
