@@ -5,4 +5,14 @@ types:
   person:
     properties:
       name: string
-      age: 
+      age: number
+
+
+/getPersons:
+  get:
+    body:
+      application/json:
+        type: person[]
+        example:
+          - {age : 10, name : fran}
+          - {age: }
