@@ -1,1 +1,6 @@
-{"main":"august.raml","name":"august","classifier":"raml","tags":[]}
+{
+  "main": "august.raml",
+  "name": "august",
+  "classifier": "raml",
+  "tags": []
+}
