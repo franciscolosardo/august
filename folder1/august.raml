@@ -1,11 +1,12 @@
 #%RAML 1.0
-title: augusts
+title: august2
 
 types:
   person:
     properties:
       name: string
       age: number
+      email: string
 
 
 /getPersons:
@@ -14,5 +15,5 @@ types:
       application/json:
         type: person[]
         example:
-          - {age : 10, name : fran}
-          - {age: 20, name : pepe}
+          - {age : 10, name : fran, email: 'fran@losardo.com'}
+          - {age: 20, name : pepe, email : 'fran@losardo.com'}
